@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto 7</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>FORM WITH VERIFICATION</h1>
+        </div>
+        <div class="block">
+            <form id="form">
+                <div class="form-group form-group-1">
+                    <label for="name">Name</label>
+                    <input type="text" class="input" name="name" class="name" id="name" placeholder="Name">
+                    <p class="message">**one starting with capital</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="surname">Surname</label>
+                    <input type="text" class="input" name="surname" id="surname" placeholder="Surname">
+                    <p class="message">**a space and capital letter</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="dni">DNI</label>
+                    <input type="text" class="input" name="idcard" id="dni" placeholder="DNI">
+                    <p class="message">**Spanish  Id card number</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="date">Date of birth</label>
+                    <input type="text" class="input" name="date" id="date" placeholder="Date of birth">
+                    <p class="message">**in DD/MM/YYYY format</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="cpostal">Postal Code</label>
+                    <input type="text" class="input" name="postalcode" id="postalcode" placeholder="Postal code">
+                    <p class="message">**Spanish Postal Code</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="correo">Email</label>
+                    <input type="email" class="input" name="email" id="email" placeholder="Email">
+                    <p class="message">**Valid E-mail</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="phone">Telephone</label>
+                    <input type="text" class="input" name="telephone" id="telephone" placeholder="Telephone">
+                    <p class="message ">**Spanish Telephone</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="mobile">Mobile</label>
+                    <input type="text" class="input" name="mobile" id="mobile" placeholder="Mobile">
+                    <p class="message">**Spanish Mobile</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="iban">IBAN</label>
+                    <input type="text" class="input" name="iban" id="iban" placeholder="IBAN">
+                    <p class="message">**IBAN</p>
+                </div>
+                <div class="form-group  form-group-1">
+                    <label for="card">Credit card</label>
+                    <input type="text" class="input" name="creditcard" id="card" placeholder="Credit card">
+                    <p class="message">**Credit Card</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="password">Password</label>
+                    <input type="password" class="input" name="password" id="password" placeholder="Password">
+                    <p class="message">**12 digits with letters,numbers and one symbol</p>
+                </div>
+                <div class="form-group form-group-1">
+                    <label for="password2">Confirm password</label>
+                    <input type="password" class="input" name="password2" id="password2" placeholder="Confirm pasword">
+                    <p class="message">**do not match</p>
+                </div>
+                <div id="divbtn" class="form-group form-group-1">
+                    <button  id="btnGetfile" class="btn">Get file</button>
+                </div>
+                <div id="divbtn" class="form-group form-group-1">
+                    <button  id="btnPost" class="btn">Post</button>
+                </div>
+                <div id="divbtn" class="form-group form-group-1">
+                    <button  id="btnGet" class="btn">Get</button>
+                </div>
+                <div id="divbtn" class="form-group form-group-1">
+                    <button  id="btnPostDB" class="btn">PostDB</button>
+                </div>
+                <div id="divbtn" class="form-group form-group-1">
+                    <button  id="btnGetDB" class="btn">GetDB</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="conexion.js"></script>
+</body>
+</html>
+
+
+
